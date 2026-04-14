@@ -1,0 +1,94 @@
+.top-border {
+
+    clip-path: polygon(50% 0%, 80% 10%, 100% 34%, 98% 68%, 80% 90%, 50% 100%, 0 100%, 0% 70%, 0% 35%, 0 0);
+    background-color: gray;
+}
+
+.logoSlider {
+    display: flex;
+    animation: logoSlider 10s linear infinite;
+    width: max-content;
+}
+
+@keyframes logoSlider {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.logoSlider img {
+    flex-shrink: 0;
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+.logoSlider:hover {
+    animation-play-state: paused;
+}
+
+
+
+@keyframes cardHover {
+    100% {
+        transform: translateY(-8px);
+    }
+}
+
+/* .cardHover:hover {
+    animation: cardHover 1s linear 0s 1 forwards;
+    box-shadow: 1px 9px 58px -15px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: 1px 9px 58px -15px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 1px 9px 58px -15px rgba(0, 0, 0, 0.33);
+} */
+
+
+
+.cardHover {
+    box-shadow: 0px 0px 0px 0px #0000001A;
+
+
+
+}
+
+.btnShadow {
+    box-shadow: -4px 58px 119px -20px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: -4px 58px 119px -20px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: -4px 58px 119px -20px rgba(0, 0, 0, 0.33);
+}
+
+.destinationCard {
+    box-shadow: 0px 37px 99px -58px rgba(0, 0, 0, 0.73);
+    -webkit-box-shadow: 0px 37px 99px -58px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: 0px 37px 99px -58px rgba(0, 0, 0, 0.73);
+}
+
+@media (max-width: 768px) {
+    .destinationCard {
+        box-shadow: -5px 29px 115px -78px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow: -5px 29px 115px -78px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow: -5px 29px 115px -78px rgba(0, 0, 0, 0.6);
+    }
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-scroll {
+    animation: scroll 40s linear infinite;
+    will-change: transform;
+}
+
+.animate-scroll:hover {
+    animation-play-state: paused;
+}
