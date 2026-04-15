@@ -1,16 +1,43 @@
-# React + Vite
+# Travlog Agency Landing Page UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live Demo](https://travlog-agency-website-ui.vercel.app/) | [GitHub Repo](https://github.com/Ahmad-Munaam/Travlog-Agency-Website-UI)
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This was a game changer for me. Before this, my designs were basic — functional but nothing special. This project taught me how animations and attention to detail can turn a regular landing page into something that actually looks professional.
 
-## React Compiler
+It's a travel agency landing page UI. No backend, no complex logic — just pure frontend work focused on design, animations, and user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built With
 
-## Expanding the ESLint configuration
+- React.js
+- Tailwind CSS
+- JavaScript
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Hero section with call-to-action buttons
+- Services section (tour guide, easy booking, etc.)
+- Top destinations grid with price cards
+- Travel point stats section (holiday packages, luxury hotels, etc.)
+- Testimonials section
+- Newsletter subscription section
+- Smooth animations throughout
+- Fully responsive — works on mobile, tablet, and desktop
+
+## What I Learned
+
+- How to build complex, attractive UI layouts from scratch
+- Animations — adding them the right way so they feel smooth, not annoying
+- That small details (hover effects, transitions, spacing) completely change how a site feels
+- How to structure a larger React component tree without making a mess
+- Reading and copying design references to build something original
+
+## Run Locally
+
+```bash
+git clone https://github.com/Ahmad-Munaam/Travlog-Agency-Website-UI
+cd Travlog-Agency-Website-UI
+npm install
+npm run dev
